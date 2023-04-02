@@ -41,7 +41,7 @@ ON stars.id = winners.id_star
 WHERE nagroda = 'Golden globe';
 
 /*show firstname and surname people who are marriage*/
-SELECT a.imie + ' ' +a.nazwisko as ma³¿onek_1, b.imie + ' ' + b.nazwisko as ma³¿onek_2
+SELECT a.imie + ' ' +a.nazwisko as malzonek_1, b.imie + ' ' + b.nazwisko as malzonek_2
 FROM marriage 
 JOIN stars a
 ON marriage.id_star1 = a.id 
